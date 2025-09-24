@@ -30,8 +30,8 @@ EOF
 
 echo "creating output directory"
 mkdir -p output
-touch output/test.gitignore
-touch output/requirements.txt
+touch .gitignore
+touch requirements.txt
 
 
 
