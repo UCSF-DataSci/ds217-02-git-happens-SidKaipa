@@ -1,6 +1,5 @@
 
 --- Report ---
-Total Students Analyzed: 8
-Average Grade: 80.6
-Students in Math: 0
+Analyze Data: {'total students': 8, 'average grade': 80.625, 'max grade': 95, 'min grade': 55, 'subject counts': {'math': 1, 'science': 1, 'trig': 1, 'calculus': 2, 'chemistry': 1, 'biology': 1, 'atronomy': 1}}
+Grade Distribution: {'counts': {'A': 3, 'B': 2, 'C': 1, 'D': 1, 'F': 1}, 'percentages': {'A': 0.375, 'B': 0.25, 'C': 0.125, 'D': 0.125, 'F': 0.125}}
 -----------------------------
