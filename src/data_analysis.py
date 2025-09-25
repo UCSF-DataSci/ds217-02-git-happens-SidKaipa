@@ -60,7 +60,7 @@ def save_report(report, filename):
 
 #TODO main()
 def main():
-    input_file = "students.csv"
+    input_file = "data/students.csv"
     output_file = "output/analysis_report.txt"
     ret = load_students(input_file)
     num_of_students = len(ret)
