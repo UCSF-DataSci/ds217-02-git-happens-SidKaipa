@@ -131,7 +131,7 @@ def save_results(report, filename):
 #TODO main()
 def main():
     input_file = "../data/students.csv"
-    output_file = "../output/analysis_report_2.txt"
+    output_file = "../output/analysis_report.txt"
     students = load_data(input_file)
     grades = get_grades(students)
     report = generate_report(input_file,students,grades)
