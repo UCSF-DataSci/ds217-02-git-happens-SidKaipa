@@ -114,7 +114,6 @@ def analyze_grade_distribution(grades):
 def generate_report(filename, students, grades):
     return f"""
 --- Report ---
-Is CSV?: {load_data(filename)}
 Analyze Data: {analyze_data(students)}
 Grade Distribution: {analyze_grade_distribution(grades)}
 -----------------------------
@@ -132,7 +131,7 @@ def save_results(report, filename):
 #TODO main()
 def main():
     input_file = "../data/students.csv"
-    output_file = "../output/analysis_report.txt"
+    output_file = "../output/analysis_report_2.txt"
     students = load_data(input_file)
     grades = get_grades(students)
     report = generate_report(input_file,students,grades)
