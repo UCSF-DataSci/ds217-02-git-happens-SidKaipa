@@ -1,0 +1,6 @@
+
+--- Report ---
+Total Students Analyzed: 8
+Average Grade: 80.6
+Students in Math: 0
+-----------------------------
